@@ -8,6 +8,6 @@ Hi! My name is Kelebet and this is my portfolio. Hope you get to learn a bit abo
 
 #Credits
 
-I was able to get this assignment accomplished with the help of
+I was able to get this assignment accomplished with the help of my suppiurt team."
 
-
+<img src="./assets/images/Picture1m.png"></img>
