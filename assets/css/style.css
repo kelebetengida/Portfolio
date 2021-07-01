@@ -108,16 +108,22 @@ ul{
 
 
 
-
-
+#work .photo img{
+    width:70%;
+}
+#work .photos img{
+    width:100%;
+    display: flex;
+   
+}
 
 #work {
     display: flex;
+    
     margin: 14%;
     font-family: "Montez",sans-serif;
     color: rgb(144, 12, 63);
     font-size: 70px;
-    justify-content: flex-start;
     background-color: white;
     text-align: center;
 }
@@ -126,49 +132,47 @@ ul{
     font-family: "Montez",sans-serif;
     color: rgb(144, 12, 63);
     font-size: 70px;
-    justify-content: flex-start;
     background-color: white;
     border-right: 9px  solid rgb(144, 12, 63);
 
 }
 
+#work .photo .photos{
+    flex-wrap: wrap;
+}
 .photo{
-    flex: 0 0 0;
-    flex-wrap: wrap;
-    margin: 45px;
-    padding: 0px 0px 0px 0px;
-    text-align: center;
-    border-style: solid;
-    border-width: 10px;
+    filter: opacity(30%);
+    height: 60%;
+    width: 100%;
+    object-fit: fill;
 }
+
 .photos{
-    flex: 0 0 0;
-    flex-wrap: wrap;
-    padding: 0px 0px 0px 0px;
-    text-align: center;
-    border-style: solid;
-    border-width: 5px;
-    border-image: stretch;
-    padding-right: 8px;
-    font-size: x-large;
-    margin: 9px;
-}
-
-.photoss{
-    flex: 0 0 0;
     
+    min-height: 150px;
+    min-width: 150px;
+    flex-basis: calc(50%-1em);
+    margin: 0;
     padding: 0px;
-    text-align: center;
+    text-align:center;
+    justify-content: center;
     border-style: solid;
     border-width: 5px;
-    border-image: stretch;
-    padding-right: 8px;
-    font-size: x-large;
-    margin: 9px;
+    filter: opacity(30%);
 }
-
-
-
+.allbox{
+    border:solid red;
+    margin-left: 6%;
+    padding: 0px 0px 0px 0px;
+    text-align:center;
+    justify-content: center;
+    border-style: solid;
+    border-width: 2px;
+    float:right;
+}
+.secbox{
+    border: solid  red;
+}
 
 
 #contact{
@@ -207,7 +211,8 @@ ul{
     justify-content: space-evenly;
 }
 #contact li a{
-    
+    display: flex;
+    justify-content: space-between;
     color: rgb(144, 12, 63);
     font-family:"Montez",sans-serif;
     text-decoration: none;
