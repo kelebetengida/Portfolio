@@ -1,6 +1,6 @@
 # Portfolio-Webpage
 
-Deployed Aplication: https://kelebetengida.github.io/Portfolio-/
+Deployed Aplication: https://kelebetengida.github.io/Portfolio/
 
 # Discription 
 
